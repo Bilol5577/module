@@ -1,0 +1,79 @@
+/* Barcha sahifa uchun asosiy stillar */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2a00b7, #00aaff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kalkulyator konteyneri */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    color: white;
+}
+
+/* Sarlavha */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input maydonlari */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Tugmalar */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3e8e41;
+}
+
+/* Natija matni */
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#result {
+    color: yellow;
+    font-size: 22px;
+}
+
+/* Pastdagi matn */
+footer {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
